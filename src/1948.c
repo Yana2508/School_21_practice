@@ -6,7 +6,7 @@ int main ()
 {
     int number = 0;
     
-if(scanf("%d", &number) != 1 || getchar() != '\n')
+    if(scanf("%d", &number) != 1 || getchar() != '\n')
     {
         printf("n/a");
     }
